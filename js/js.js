@@ -366,7 +366,7 @@ function start() {
   } // Fim da função energia()
   function nivel() {
     $("#nivel").html("<h2>Nivel: " + level + "</h2>");
-    $("#nivel").html(`<h2> Nivel: ${level} </h2>`);
+    $("#nivel").html(`<h2> Nivel: ${parseInt(level)} </h2>`);
   }
   //Função GAME OVER
   function gameOver() {
